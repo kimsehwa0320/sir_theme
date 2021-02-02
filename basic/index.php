@@ -11,7 +11,7 @@ include_once(G5_THEME_PATH.'/head.php');
 ?>
 
 <style>
-    .inSlider{ width: 930px; background: pink; margin-bottom: 50px}
+    .inSlider{background: pink; margin-bottom: 50px}
     .inSlider li img{width: 100%;}
 </style>
 <script>
