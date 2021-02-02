@@ -29,3 +29,45 @@
 .lat .lt_cmt {background:#e9eff5;color:#3a8afd;font-size:11px;height:16px;line-height:16px;padding:0 5px;border-radius:3px;vertical-align:middle}
 .lat .lt_more {position:absolute;top:11px;right:0;display:block;width:40px;line-height:25px;color:#3a8afd;border-radius:3px;text-align:center}
 .lat .lt_more:hover {color:#777}
+
+
+
+/* notice 스킨 (latest) */
+/* 새글 스킨 (latest) */
+.clearfix:after{content:"";display: block;clear: both;}
+.notice01{width: 930px;height: 250px;}
+.notice01 .left{
+  float: left;width: 200px;height: 100%;
+  padding:20px
+}
+
+.notice01 .left h2{font-size:1.5em;margin-bottom:10px;}
+.notice01 .left .lt_more{
+  width: 23px;height: 23px;
+  background-image: url(img/more_btn.png);
+  background-position: 0 -23px;
+  display: block;text-indent:-9999px;
+  transition:.3s
+}
+.notice01 .left .lt_more:hover{
+  background-position: 0 0;
+}
+.notice01 .right{float: left;width: 730px;height:100%;padding:20px}
+.notice01 .right li{
+  float: left;width:31.33%;margin-right:3%;
+  position: relative;}
+.notice01 .right li:last-child{margin-right: 0;}
+.notice01 .right li h3{
+  font-size:1.5em;margin-bottom:50px;
+  height: 100px;
+}
+.notice01 .right li p{
+  padding-bottom:10px;
+}
+.notice01 .right li:after{
+  content:"";display: block;width:1px;height: 100%;
+  background: #ccc;position: absolute;left: -15px;top: 0;
+}
+.notice01 .right li:first-child:after{
+  content:"";display: none;
+}
