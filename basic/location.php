@@ -5,10 +5,9 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 $co_id = "testpage";
 $menuNum = "1"; //메뉴  순서 몇번째 쓸지
 $menuNum = "2"; //서브메뉴 순서 몇번째 쓸지
-$g5['title'] = "오시는 길" //메소드 구문과 동일
+$g5['title'] = "오시는 길"; //메소드 구문과 동일
 
-include_once(G5_THEME_PATH.'/head.php');
-?>
+include_once(G5_THEME_PATH.'/head.php');?>
 <!-- * 카카오맵 - 지도퍼가기 -->
 <!-- 1. 지도 노드 -->
 <div id="daumRoughmapContainer1612328493700" class="root_daum_roughmap root_daum_roughmap_landing"></div>
