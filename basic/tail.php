@@ -7,11 +7,10 @@ if (G5_IS_MOBILE) {
 }
 ?>
 
-    </div> <!-- cotainer end -->
+</div> <!-- cotainer end -->
     <?if(!defined("_INDEX_")){?>
       <div id="aside">
-          <?php echo outlogin('theme/basic'); // 외부 로그인, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정 ?>
-          <?php echo poll('theme/basic'); // 설문조사, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정 ?>
+          <? include_once(G5_THEME_PATH.'/skin/nav/mysubmenu.php'); ?>
       </div>
     <?}?>
 </div> <!-- container_wr end -->
