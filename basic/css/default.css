@@ -454,4 +454,7 @@ box-sizing:content-box;
   height: 100%;
   display: flex; justify-content: center; align-items: center;
 }
-.subVisual .title{background: skyblue; width: 200px; text-align:center;}
+.subVisual .title{background: skyblue; text-align:center;}
+.subVisual .sbtImg.subTopBg_01{background: blue;}
+.subVisual .sbtImg.subTopBg_02{background: orange;}
+.subVisual .sbtImg.subTopBg_03{background: brown;}

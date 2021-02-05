@@ -2,7 +2,7 @@
 
 <style TYPE="text/css">
 <!--
-#snb{width:100%; margin-top:-50px;}
+#snb{width:100%;}
 	#snb {width:100%;}
 	#snb > li.snb{width:100%;display:none;}
 	#snb > li.snb.active{display:block !important;}

@@ -157,10 +157,25 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
   <div id="page_title" class="sbtImg">
     <div class="title">
       <h2 class="loc1D"></h2> <!--id값이 class로 지정되어 있는 부분 추출 mysubmenu 53~63-->
-      <div class="text"></div>
+      <div class="text">하이</div>
     </div>
   </div>
 </div>
+<script>
+// window.onload = function(){} 이벤트 등록
+  window.onload = function(){ //loc1D가 현재위치값 찍히게 하려면 onload 사용 필수
+    var menuDep = $(".loc1D").html(); //get
+    console.log("현재위치 : " + menuDep);
+
+    if(menuDep=="회사소개"){
+      $(".subVisual .text").text("저희 홈페이지를 찾아주셔서 감사합니다.");
+    }else if(menuDep == "커뮤뮤티"){
+      $(".subVisual .text").text("자유롭게 커뮤뮤티 하실 수 있는 장소입니다.");
+    }else{
+      $(".subVisual .text").text("나이스");
+    }
+  }
+</script>
 <?} ?>
 
 <!-- 콘텐츠 시작 { -->
