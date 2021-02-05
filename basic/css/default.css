@@ -445,4 +445,13 @@ box-sizing:content-box;
 /* Mobile화면으로 */
 #device_change {display:block;margin:0.3em;padding:0.5em 0;border:1px solid #eee;border-radius:2em;background:#fff;color:#000;font-size:2em;text-decoration:none;text-align:center}
 
-.loView{font-size:2em; color:blue; text-align:center; font-weight:bold}
+.loView{font-size:2em; color:blue; text-align:center; font-weight:bold ;}
+
+.subVisual{
+  height: 200px; background: pink;
+}
+.subVisual #page_title{
+  height: 100%;
+  display: flex; justify-content: center; align-items: center;
+}
+.subVisual .title{background: skyblue; width: 200px; text-align:center;}

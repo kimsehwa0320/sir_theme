@@ -34,7 +34,7 @@ $(document).ready(function(){
 		"mapHeight" : "500"
 	}).render();
 </script>
-<div class="">
+<div class="loView">
   서울 구로구 구로동 602-5
 
 </div>

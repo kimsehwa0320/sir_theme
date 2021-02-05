@@ -151,6 +151,17 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 
 
 <hr>
+<!-- index가 아니면 subpage 표시(mainpage에서 없앰) -->
+<? if(!defined("_INDEX_")){ ?>
+<div class="subVisual">
+  <div id="page_title" class="sbtImg">
+    <div class="title">
+      <h2 class="loc1D"></h2> <!--id값이 class로 지정되어 있는 부분 추출 mysubmenu 53~63-->
+      <div class="text"></div>
+    </div>
+  </div>
+</div>
+<?} ?>
 
 <!-- 콘텐츠 시작 { -->
 <div id="wrapper">
@@ -162,5 +173,5 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
           <? echo get_head_title($g5['title']); ?></span></h2><?}?>
 
           <?if(!defined("_INDEX_")){ // 메인페이지가 아니면 ->서브페이 ?>
-            
+
           <?}?>
